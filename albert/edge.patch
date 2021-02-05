@@ -1,0 +1,28 @@
+From bc333df39159fd98b21e03385567d287aae4db40 Mon Sep 17 00:00:00 2001
+From: xatier <xatierlike@gmail.com>
+Date: Fri, 5 Feb 2021 03:27:08 -0800
+Subject: [PATCH] Update extension.cpp
+
+```
+$ find .config/ -name Bookmarks
+.config/microsoft-edge-dev/Default/Bookmarks
+```
+---
+ chromium/src/extension.cpp | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/chromium/src/extension.cpp b/chromium/src/extension.cpp
+index ae5f8a55..1ffd9926 100644
+--- a/chromium/src/extension.cpp
++++ b/chromium/src/extension.cpp
+@@ -37,7 +37,9 @@ const char *CONFIG_LOCATIONS[] = {
+     "BraveSoftware",
+     "brave-browser",
+     "chromium",
+-    "google-chrome"
++    "google-chrome",
++    "microsoft-edge",
++    "microsoft-edge-dev"
+ };
+ }
+ 
