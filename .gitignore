@@ -1,3 +1,4 @@
-src/
 mirrors/
+pkg/
+src/
 *.pkg.tar.zst
